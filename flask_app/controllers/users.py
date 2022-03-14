@@ -2,6 +2,7 @@ from crypt import methods
 from flask import render_template, request, redirect, session, flash
 from flask_app import app
 from flask_app.models.user import User
+from flask_app.models.product import Product
 from flask_bcrypt import Bcrypt
 bcrypt = Bcrypt(app)
 
@@ -55,3 +56,14 @@ def dashboard():
 def logout():
     session.clear()
     return redirect('/')
+
+
+@app.route('/add/<int:product_id>')
+def add_product(product_id):
+        if 'user_id' in session:
+            Product.add_product(product_id)
+        return redirect('/')
+
+@app.route('/cart/<int:id>')
+def checkout():
+    return render_template("checkout.html")

@@ -16,26 +16,46 @@
                 {% endif %}
         {% endwith %}
     <form action='/register/user' method="post">
+        <div id="register">
         <h1>Register</h1>
+        <div class="one">
         <label for="first_name">First Name:</label>
         <input type="text" name="first_name">
+        </div>
+        <div class="one">
         <label for="last_name">Last Name:</label>
         <input type="text" name="last_name">
+        </div>
+        <div class="one" id="email">
         <label for="email">Email:</label>
         <input type="text" name="email">
-        <label for="password">Password:</label>
+        </div>
+        <div class="one">
+        <label for="password" id="password">Password:</label>
         <input type="text" name="password">
+        </div>
         <!-- <label for="password">Confirm Password:</label>
         <input type="text" name="password"> -->
+        <div class="one">
         <button value="register">Register</button>
+        </div>
+        </div>
     </form>
     <form action="/login" method="post">
+        <div id="login">
         <h1>Login</h1>
+        <div class="two">
         <label for="email">Email:</label>
         <input type="text" name="email">
+        </div>
+        <div class="two" id="passwords">
         <label for="password">Password:</label>
         <input type="text" name="password">
+        </div>
+        <div class="two">
         <button value="login">Login</button>
+        </div>
+        </div>
     </form>
 </body>
 </html>

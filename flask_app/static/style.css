@@ -1,0 +1,135 @@
+#register {
+    border: 1px solid black;
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    margin-left: 500px;
+    text-align: center;
+    background-color: rgb(130, 165, 165);
+}
+
+#login {
+    border: 1px solid black;
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    margin-left: 950px;
+    text-align: center;
+    background-color: rgb(130, 165, 165);
+}
+
+.one {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#email {
+    margin-left: 30px;
+}
+
+#password {
+    margin-left: 10px;
+}
+
+.two {
+    margin-top: 20px;
+}
+
+#passwords {
+    margin-right: 20px;
+}
+
+#main {
+    border: 1px solid black;
+    height: 150px;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(130, 165, 165);
+}
+
+#logout {
+    height: 35px;
+    width: 80px;
+    margin-left: 1500px;
+    margin-top: 5px;
+}
+
+#header {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 10px;
+}
+
+#home {
+    color: white;
+}
+
+#products {
+    color: white;
+}
+
+#line1 {
+    display: inline-block;
+    margin-top: 100px;
+}
+
+#box1 {
+    height: 400px;
+    width: 250px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 165px;
+}
+
+#box2 {
+    height: 400px;
+    width: 250px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+#box3 {
+    height: 400px;
+    width: 250px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+#box4 {
+    height: 400px;
+    width: 250px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+#box5 {
+    height: 400px;
+    width: 250px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+#one, #two, #three, #four, #five {
+    height: 350px;
+    width: 250px;
+}
+
+.btn-dark {
+    margin-left: 80px;
+    margin-top: 8px;
+    width: 90px;
+    height: 35px;
+}
+
+#cart {
+    height: 45px;
+    position: absolute;
+    margin-left: 1520px;
+    margin-top: -27px;
+    border-radius: 50px;
+}

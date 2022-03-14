@@ -18,7 +18,7 @@ class User:
 
     @classmethod
     def get_email(cls,data):
-        query = "SELECT * FROM user WHERE email = %(email)s;"
+        query = "SELECT * FROM users WHERE email = %(email)s;"
         results =  connectToMySQL("login_registration").query_db(query, data)
         if len(results) < 1:
             return False
@@ -59,5 +59,3 @@ class User:
             flash('Password should have at least one uppercase letter')
             is_valid = False
         return is_valid
-
-    
